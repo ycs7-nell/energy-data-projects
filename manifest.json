@@ -1,0 +1,25 @@
+{
+  "url": "https://mis.nyiso.com/public/csv/damlbmp/20261025damlbmp_zone.csv",
+  "retrieved": "2026-10-26",
+  "sha256": "60b3396498109aebf060b4580806b7a59342fb18ad88443173d24cb4d790afb2",
+  "market": "NYISO zonal day-ahead LBMP",
+  "date": "2026-10-25",
+  "interval_hours": 1,
+  "zones": [
+    "CAPITL",
+    "CENTRL",
+    "DUNWOD",
+    "GENESE",
+    "HUD VL",
+    "LONGIL",
+    "MHK VL",
+    "MILLWD",
+    "N.Y.C.",
+    "NORTH",
+    "WEST"
+  ],
+  "excluded": "external proxy locations",
+  "scenarios": 396,
+  "solver": "scipy.optimize.milp / HiGHS",
+  "constraints": "1 MW grid charge/discharge; empty initial/final storage; binary mode; internal-energy cycle budget"
+}
